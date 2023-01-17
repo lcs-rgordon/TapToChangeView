@@ -14,6 +14,8 @@ struct TapToChangeViewApp: App {
             NavigationView {
                 ListView()
             }
+            .tint(.yellow)
+
         }
     }
 }

@@ -11,6 +11,9 @@
 		81715EA02976359D00D4B83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81715E9F2976359D00D4B83B /* Assets.xcassets */; };
 		81715EA32976359D00D4B83B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81715EA22976359D00D4B83B /* Preview Assets.xcassets */; };
 		81715EAB297635CE00D4B83B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81715EAA297635CE00D4B83B /* ListView.swift */; };
+		81715EAD2976365100D4B83B /* BlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81715EAC2976365100D4B83B /* BlueView.swift */; };
+		81715EAF2976365900D4B83B /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81715EAE2976365900D4B83B /* RedView.swift */; };
+		81715EB12976366900D4B83B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81715EB02976366900D4B83B /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		81715E9F2976359D00D4B83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81715EA22976359D00D4B83B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81715EAA297635CE00D4B83B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		81715EAC2976365100D4B83B /* BlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueView.swift; sourceTree = "<group>"; };
+		81715EAE2976365900D4B83B /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
+		81715EB02976366900D4B83B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				81715EAA297635CE00D4B83B /* ListView.swift */,
+				81715EB02976366900D4B83B /* CardView.swift */,
+				81715EAE2976365900D4B83B /* RedView.swift */,
+				81715EAC2976365100D4B83B /* BlueView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -146,7 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81715EAB297635CE00D4B83B /* ListView.swift in Sources */,
+				81715EAD2976365100D4B83B /* BlueView.swift in Sources */,
+				81715EAF2976365900D4B83B /* RedView.swift in Sources */,
 				81715E9C2976359C00D4B83B /* TapToChangeViewApp.swift in Sources */,
+				81715EB12976366900D4B83B /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

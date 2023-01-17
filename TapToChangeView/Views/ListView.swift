@@ -10,8 +10,11 @@ import SwiftUI
 struct ListView: View {
     var body: some View {
         List {
-            Text("1")
-            Text("2")
+            NavigationLink(destination: {
+                CardView()
+            }, label: {
+                Text("A Trading Card")
+            })
         }
         .navigationTitle("List")
     }
@@ -22,5 +25,6 @@ struct ListView_Previews: PreviewProvider {
         NavigationView {
             ListView()
         }
+        .tint(.yellow)
     }
 }
